@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, span{
     line-height: 1.25;
 }
 
+h1{
+    font-size: 36px;
+}
+
 p{
     line-height: 1.5;
     font-size: 16px;
@@ -20,6 +24,10 @@ p{
 
 li{
     list-style-type: none;
+}
+
+.text--purple{
+    color: #6030b1;
 }
 
 /* ========== Common CSS Ended ========== */
@@ -69,4 +77,34 @@ nav{
 /* ==========Navigation Bar Ended========== */
 
 /* ===========About Section Started========== */
+
+.about--section__container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about--section__wrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.about--image__wrapper{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* margin-bottom: 30px; */
+    margin: 0 auto;
+
+}
+
+.about--image__wrapper img{
+    width: 100%;
+    transform: scale(1.5);
+    padding-top: 15px;
+}
+
 /* ===========About Section Ended========== */
