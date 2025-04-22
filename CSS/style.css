@@ -30,7 +30,15 @@ li{
     color: #6030b1;
 }
 
-/* ========== Common CSS Ended ========== */
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+/* ========== Common CSS Properties Ended ========== */
 
 /* ========== Navigation Bar Started ========== */
 
@@ -78,33 +86,10 @@ nav{
 
 /* ===========About Section Started========== */
 
-.about--section__container{
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.about--section__wrapper{
+#about-me{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    text-align: center;
-}
-
-.about--image__wrapper{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    /* margin-bottom: 30px; */
-    margin: 0 auto;
-
-}
-
-.about--image__wrapper img{
-    width: 100%;
-    transform: scale(1.5);
-    padding-top: 15px;
 }
 
 /* ===========About Section Ended========== */
