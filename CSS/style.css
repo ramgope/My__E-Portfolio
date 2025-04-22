@@ -24,7 +24,7 @@ li{
 
 /* ========== Common CSS Ended ========== */
 
-/* ========== Navigation Bar ========== */
+/* ========== Navigation Bar Started ========== */
 
 nav{
     width: 100%;
@@ -65,3 +65,8 @@ nav{
 .nav__link--anchor-primary:hover{
     background-color: #5d3eff;
 }
+
+/* ==========Navigation Bar Ended========== */
+
+/* ===========About Section Started========== */
+/* ===========About Section Ended========== */
