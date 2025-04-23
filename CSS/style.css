@@ -103,6 +103,9 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .about-me__picture--mask{
