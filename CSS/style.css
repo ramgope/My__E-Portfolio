@@ -149,6 +149,7 @@ nav{
     flex: 1;
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 
 .about-me__img{
