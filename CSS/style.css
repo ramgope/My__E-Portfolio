@@ -215,8 +215,7 @@ nav{
 
 .language:hover .language__name{
     transform: scale(1);
-    opacity: 1
-    ;
+    opacity: 1;
 }
 
 /* ===========Language Section Ended========== */
