@@ -219,3 +219,18 @@ nav{
 }
 
 /* ===========Language Section Ended========== */
+
+/* ===========Project Section Started========== */
+
+.project__wrapper{
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.project__img{
+    width: 100%;
+}
+
+/* ===========Project Section Ended========== */
