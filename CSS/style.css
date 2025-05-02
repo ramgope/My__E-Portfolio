@@ -423,7 +423,35 @@ footer{
 /* Small Phones Only */
 
 @media (max-width: 468px) {
-    
+    .nav__link:not(:last-child){
+        display: none;
+    }
+
+    .project__description{
+        padding: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .project__description--para{
+        display: none;
+    }
+
+    .project__description--links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project__description--title{
+        line-height: 1;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .project__description--sub-title{
+        text-align: center;
+        margin: 12px 0;
+    }
 }
 
 /* ===========Media Query Section Ended========== */
